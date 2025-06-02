@@ -1,16 +1,61 @@
-# snap2text
+# 📸 Snap2Text – Instant Text Extractor
 
-A new Flutter project.
+![Home](./screenshots/Snap2Text_1.jpg) 
 
-## Getting Started
+> Extract text from images instantly with your phone's camera or gallery. Perfect for digitizing notes, receipts, signs, and more!
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+### Core Functionality
+- 📷 **Image Capture**: Use camera or pick from gallery
+- 🔍 **OCR Magic**: Powered by ML Kit for accurate text recognition
+- 📋 **Text Actions**: Copy, share, or save extracted text with one tap
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Bonus Goodies
+- ✏️ **Text Editing**: Clean up OCR results before saving
+- 🌙 **Dark/Light Mode**: Eye-friendly themes
+- 🚀 **Smooth Animations**: Delightful UI interactions
+- 🕶️ **Glassmorphic UI**: Sleek modern design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+### Flutter Plugins
+| Plugin | Purpose |
+|--------|---------|
+| `google_mlkit_text_recognition` | OCR text extraction |
+| `image_picker` | Camera/gallery access |
+| `share_plus` | Sharing extracted text |
+| `flutter_riverpod` | State management |
+| `glassmorphism_ui` | Visual effects (optional) |
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (latest stable)
+- Android/iOS development environment
+
+### Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/theprantadutta/snap2text.git
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## 📸 Screenshots
+
+| Capture Screen | Results Screen | Home Screen |
+|---------------|---------------|-----------|
+| ![Capture](./screenshots/Snap2Text_3.jpg) | ![Results](./screenshots/Snap2Text_2.jpg) | ![Dark](./screenshots/Snap2Text_1.jpg) |
+
+## 🤝 Contributing
+Pull requests welcome! For major changes, please open an issue first.
+
+## 📜 License
+[MIT](https://choosealicense.com/licenses/mit/)
